@@ -12,6 +12,16 @@
 		1947F89D199B16DA005776E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1947F89B199B16DA005776E9 /* Main.storyboard */; };
 		1947F89F199B16DA005776E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1947F89E199B16DA005776E9 /* Images.xcassets */; };
 		1947F8AB199B16DB005776E9 /* Week2HWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947F8AA199B16DB005776E9 /* Week2HWTests.swift */; };
+		1947F8B6199B189C005776E9 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947F8B5199B189C005776E9 /* SplashViewController.swift */; };
+		1947F8B8199B18B9005776E9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947F8B7199B18B9005776E9 /* SignInViewController.swift */; };
+		1947F8BA199B18C2005776E9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947F8B9199B18C2005776E9 /* SignUpViewController.swift */; };
+		1947F8BE199B18EE005776E9 /* PhotoGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947F8BD199B18EE005776E9 /* PhotoGridViewController.swift */; };
+		1947F8C0199B18F7005776E9 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947F8BF199B18F7005776E9 /* ConversationsViewController.swift */; };
+		1947F8C2199B18FE005776E9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947F8C1199B18FE005776E9 /* SettingsViewController.swift */; };
+		1947F8C4199B1908005776E9 /* GettingStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947F8C3199B1908005776E9 /* GettingStartedViewController.swift */; };
+		1947F8C6199B453E005776E9 /* IntroScreensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947F8C5199B453E005776E9 /* IntroScreensViewController.swift */; };
+		1960160119A02E5D008967F5 /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1960160019A02E5D008967F5 /* ForgotViewController.swift */; };
+		1960160319A03FCF008967F5 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1960160219A03FCF008967F5 /* TermsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,16 @@
 		1947F8A4199B16DB005776E9 /* Week2HWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week2HWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1947F8A9199B16DB005776E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1947F8AA199B16DB005776E9 /* Week2HWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2HWTests.swift; sourceTree = "<group>"; };
+		1947F8B5199B189C005776E9 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		1947F8B7199B18B9005776E9 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		1947F8B9199B18C2005776E9 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1947F8BD199B18EE005776E9 /* PhotoGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoGridViewController.swift; sourceTree = "<group>"; };
+		1947F8BF199B18F7005776E9 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		1947F8C1199B18FE005776E9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1947F8C3199B1908005776E9 /* GettingStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GettingStartedViewController.swift; sourceTree = "<group>"; };
+		1947F8C5199B453E005776E9 /* IntroScreensViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroScreensViewController.swift; sourceTree = "<group>"; };
+		1960160019A02E5D008967F5 /* ForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		1960160219A03FCF008967F5 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +95,7 @@
 		1947F894199B16DA005776E9 /* Week2HW */ = {
 			isa = PBXGroup;
 			children = (
+				1947F8B4199B1880005776E9 /* ViewControllers */,
 				1947F897199B16DA005776E9 /* AppDelegate.swift */,
 				1947F899199B16DA005776E9 /* ViewController.swift */,
 				1947F89B199B16DA005776E9 /* Main.storyboard */,
@@ -107,6 +128,23 @@
 				1947F8A9199B16DB005776E9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1947F8B4199B1880005776E9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1947F8B5199B189C005776E9 /* SplashViewController.swift */,
+				1947F8B7199B18B9005776E9 /* SignInViewController.swift */,
+				1947F8B9199B18C2005776E9 /* SignUpViewController.swift */,
+				1947F8BD199B18EE005776E9 /* PhotoGridViewController.swift */,
+				1947F8BF199B18F7005776E9 /* ConversationsViewController.swift */,
+				1947F8C1199B18FE005776E9 /* SettingsViewController.swift */,
+				1947F8C3199B1908005776E9 /* GettingStartedViewController.swift */,
+				1947F8C5199B453E005776E9 /* IntroScreensViewController.swift */,
+				1960160019A02E5D008967F5 /* ForgotViewController.swift */,
+				1960160219A03FCF008967F5 /* TermsViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +246,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1947F8B8199B18B9005776E9 /* SignInViewController.swift in Sources */,
+				1947F8B6199B189C005776E9 /* SplashViewController.swift in Sources */,
+				1947F8C6199B453E005776E9 /* IntroScreensViewController.swift in Sources */,
 				1947F89A199B16DA005776E9 /* ViewController.swift in Sources */,
+				1947F8C0199B18F7005776E9 /* ConversationsViewController.swift in Sources */,
 				1947F898199B16DA005776E9 /* AppDelegate.swift in Sources */,
+				1947F8BE199B18EE005776E9 /* PhotoGridViewController.swift in Sources */,
+				1947F8C4199B1908005776E9 /* GettingStartedViewController.swift in Sources */,
+				1947F8BA199B18C2005776E9 /* SignUpViewController.swift in Sources */,
+				1960160119A02E5D008967F5 /* ForgotViewController.swift in Sources */,
+				1960160319A03FCF008967F5 /* TermsViewController.swift in Sources */,
+				1947F8C2199B18FE005776E9 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Week2HW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -337,6 +386,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Week2HW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -395,6 +445,7 @@
 				1947F8B0199B16DB005776E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1947F8B1199B16DB005776E9 /* Build configuration list for PBXNativeTarget "Week2HWTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +454,7 @@
 				1947F8B3199B16DB005776E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
